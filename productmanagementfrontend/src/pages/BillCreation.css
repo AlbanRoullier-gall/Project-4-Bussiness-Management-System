@@ -1,0 +1,47 @@
+.page-disposition {
+    overflow: auto;
+  }
+  
+  .page-disposition2 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+  }
+  
+  .page-disposition3 {
+    overflow: auto;
+  }
+  
+  .button-disposition {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button-save {
+    background-color: #21d59b;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 8rem;
+    cursor: pointer;
+  }
+  
+  .button-cancel {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 8rem;
+    cursor: pointer;
+  }
+  
+  .button-cancel-link {
+    text-decoration: none; 
+    color: inherit; 
+  }

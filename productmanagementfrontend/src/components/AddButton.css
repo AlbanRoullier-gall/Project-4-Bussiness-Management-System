@@ -1,0 +1,19 @@
+.container-add-line{
+    margin-top: 1rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    background-color: #F5F6FA;
+    justify-content: flex-end;
+}
+
+.button-add{
+    background-color: #9EEDE7;
+    border: #9EEDE7;
+    font-size: x-large;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}

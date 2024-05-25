@@ -1,0 +1,24 @@
+.banner {
+    display: flex;
+    justify-content : space-between;
+    width : 100%;
+    height: 3rem;
+}
+
+.Title{
+    font-size: larger;
+    padding-top: 0.5rem;
+    padding-left: 3rem;
+}
+
+.Log-in_z {
+    padding-top: 0.5rem;
+    padding-right: 3rem;
+    width : 2rem;
+    height : 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

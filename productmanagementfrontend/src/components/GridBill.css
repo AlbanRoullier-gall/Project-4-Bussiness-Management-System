@@ -1,0 +1,108 @@
+ .data-grid-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+ 
+  .MuiDataGrid-filterForm {
+    background-color: #9EEDE7;
+    border: 1px solid #CCCCCC;
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  .MuiFormControl-root.MuiDataGrid-filterFormColumnInput.css-q68e8e-MuiFormControl-root-MuiDataGrid-filterFormColumnInput {
+    width: 12rem;
+  }
+  
+  .MuiButtonBase-root-MuiIconButton-root-MuiIconButton-sizeSmall-css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root{
+    padding-left: 0%;
+  }
+
+  .MuiDataGrid-columnHeaderTitleContainer{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .MuiDataGrid-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .MuiDataGrid-menuIconButton {
+    margin-left:0%;
+  }
+  
+
+  .ExtraInformation{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.NewBillButton{
+  background-color: #21D59B;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 2rem;
+  height: 4rem;
+  width: 8rem;
+  cursor: pointer;
+}
+
+.Disposition1 {
+  background-color: #49D83D;
+}
+
+.Disposition2 {
+  background-color: #FFB100; 
+}
+
+.Disposition3 {
+  background-color: #FF0000; 
+}
+
+.Disposition4 {
+  background-color: #173058; 
+}
+
+
+.Disposition1,
+.Disposition2,
+.Disposition3,
+.Disposition4 {
+  height: 7rem;
+  width: 8rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  padding: 0.3rem 0.2rem; 
+  font-weight: 550;
+}
+
+.Disposition1 span,
+.Disposition2 span,
+.Disposition3 span,
+.Disposition4 span,
+.Disposition1 strong,
+.Disposition2 strong,
+.Disposition3 strong,
+.Disposition4 strong {
+  text-align: left; 
+  padding-left: 1rem;
+}
+
+.Price{
+    align-self: flex-end;
+}

@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    }
+
+.dashBoardContainer{
+    height: 100%;
+}
+.GraphPositioning{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+

@@ -1,0 +1,37 @@
+.container-communication {
+    height: 8rem;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: large;
+}
+
+.agencement-communication {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-top: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-communication {
+    width: 38rem;
+    height: 4rem;
+    font-size: inherit;
+    box-sizing: border-box;
+    resize: none; 
+    border: 1px solid #ccc;
+    padding: 0.5rem; 
+    overflow: auto; 
+}
+
+.structured-communication {
+    height: 2rem;
+    text-align: center;
+}

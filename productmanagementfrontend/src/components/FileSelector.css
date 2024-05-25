@@ -1,0 +1,28 @@
+.container-file-main {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .button-file-selector {
+    background-color: #9EEDE7;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .faFile {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  .button-delete {
+    border-radius: 0.5rem;
+    background-color: #9EEDE7;
+    cursor: pointer;
+  }
+  
+  .faTrash {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  

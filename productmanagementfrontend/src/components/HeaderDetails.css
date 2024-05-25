@@ -1,0 +1,40 @@
+.title-details{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: #F5F6FA;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-weight:600;
+}
+
+.line-detail-number{
+    padding-left: 1.5rem;
+}
+
+.title-product{
+    padding-left: 8.2rem;
+}
+
+.title-taxe{
+    padding-left: 12.5rem;
+}
+
+.title-quantity{
+    padding-left: 5.1rem;
+}
+
+.title-unitPrice{
+    padding-left: 4.3rem;
+}
+
+.title-totalPrice{
+    padding-left: 7rem;
+}
+
+.title-remise{
+    padding-left: 7rem;
+}

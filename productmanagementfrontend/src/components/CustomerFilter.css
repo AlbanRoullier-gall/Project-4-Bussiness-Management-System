@@ -1,0 +1,84 @@
+.extramain-container{
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+}
+
+.main-container{
+  height: 30rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-customer{
+    background-color: #9EEDE7;
+    margin-top: 0.5rem;
+    height: 3rem;
+    border-radius: 1rem;
+    font-size: larger;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.search-input {
+    margin-top: 0.1rem;
+    width: 15rem;
+    height: 1rem;
+    font-size: 1rem;
+    border: solid black 0.01rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .client,
+  .id,
+  .numéroTVA {
+    text-align: center;
+    width: 15rem;
+    padding: 0.1rem;
+    font-size: 1rem;
+  }
+  
+  .list-container {
+    max-height: 20rem;
+    overflow-y: scroll;
+    scroll-padding-top: 3rem;
+  }
+
+  
+  .row.selected {
+    background-color: #9EEDE7;
+    cursor: pointer;
+  }
+
+  .customer-selectionned .main-container {
+    display: none;
+  }
+
+  .customer-selectionned{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-disposition{
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  span{
+    padding-top: 1rem;
+  }

@@ -1,0 +1,41 @@
+.container-signature{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight:600;
+    font-size: large;
+}
+
+.agencement-proposition{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-top: 0.1rem;
+    height: 8rem;
+    width: 15rem;
+    border: solid #707070 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-signature .agencement-proposition button {
+    background-color: #e0e0e0; /* Couleur de fond */
+    color: black; /* Couleur du texte */
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.important-information{
+    font-weight: bold;
+    padding-bottom: 3rem;
+}

@@ -1,0 +1,112 @@
+.page-disposition {
+  overflow: auto;
+}
+
+.page-disposition2 {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+}
+
+.page-disposition3 {
+  overflow: auto;
+}
+
+.button-disposition {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-modify {
+  background-color: #21d59b;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 8rem;
+  cursor: pointer;
+  color: white; 
+}
+
+.button-cancel {
+  background-color: #eee;
+  color: #333; 
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 8rem;
+  cursor: pointer;
+}
+
+.button-modify-status {
+  background-color: #eee; 
+  color: #333; 
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 8rem;
+  cursor: pointer;
+}
+
+.button-cancel-link {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 0.3125rem;
+  text-align: center;
+}
+
+.popup-content h2 {
+  margin-bottom: 1.25rem;
+}
+
+.popup-content select {
+  margin-bottom: 1.25rem;
+  padding: 0.625rem; 
+  font-size: 1rem; 
+}
+
+.popup-content .button-modify, .popup-content .button-cancel {
+  margin: 0 0.625rem;
+  width: auto; 
+}
+
+.popup-content .button-modify {
+  background-color: #21d59b;
+  color: white;
+  font-weight: bold;
+  border-radius: 2rem;
+  padding: 0.625rem 1.25rem; 
+}
+
+.popup-content .button-cancel {
+  background-color: #eee;
+  color: #333;
+  font-weight: bold;
+  border-radius: 2rem;
+  padding: 0.625rem 1.25rem; 
+}

@@ -1,0 +1,39 @@
+
+
+h4{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .Agencement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-right: 2rem;
+  }
+  
+  .blue{
+    padding-right: 2rem;
+  }
+
+  .blue2::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #0076FF;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .green2::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #21D59B;
+    border-radius: 50%;
+    margin-right: 5px;
+  }

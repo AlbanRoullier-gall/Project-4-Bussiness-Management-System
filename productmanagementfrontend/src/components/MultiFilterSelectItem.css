@@ -1,0 +1,17 @@
+.extramain-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.container-proposition-product {
+  height: 1.5rem;
+  z-index: 5;
+}
+
+
+  
+
+
+  

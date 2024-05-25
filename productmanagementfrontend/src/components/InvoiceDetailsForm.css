@@ -1,0 +1,19 @@
+.container-base-creation-bill2 {
+    width: 80rem;
+    min-height: 30rem;
+    border: solid #43A8A4 0.1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    flex: 1; 
+    overflow: hidden; 
+}
+
+.container-base-details{
+    width: 100%;
+}
+
+
+
+
+
