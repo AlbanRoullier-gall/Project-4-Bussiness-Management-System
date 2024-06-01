@@ -1,0 +1,47 @@
+2024-05-28 12:01:56,085 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-28 12:23:09,021 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-28 12:28:58,366 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : handle_uploaded_file() missing 1 required positional argument: 'uploaded_file_id'
+2024-05-28 12:32:38,041 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-28 12:39:42,153 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-28 13:01:45,671 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 09:25:44,745 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 09:27:58,808 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-29 09:28:00,952 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-29 09:32:51,698 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 09:33:31,555 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 09:51:09,088 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 09:54:22,269 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 17:30:10,276 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 18:38:47,328 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create() missing 1 required positional argument: 'item_data'
+2024-05-29 18:38:48,111 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create() missing 1 required positional argument: 'item_data'
+2024-05-29 18:38:48,430 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create() missing 1 required positional argument: 'item_data'
+2024-05-29 18:38:48,661 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create() missing 1 required positional argument: 'item_data'
+2024-05-29 18:39:15,441 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create() missing 1 required positional argument: 'item_data'
+2024-05-29 18:39:42,467 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create() missing 1 required positional argument: 'item_data'
+2024-05-29 18:39:43,087 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create() missing 1 required positional argument: 'item_data'
+2024-05-29 18:42:53,667 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 18:43:09,187 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 18:44:26,882 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 18:46:54,167 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-29 18:46:54,877 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-29 18:46:55,160 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-29 18:47:21,469 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 18:49:23,562 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-29 18:49:24,336 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-29 18:49:24,582 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-29 18:49:24,819 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-29 18:52:05,158 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-29 18:55:01,646 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-29 18:55:02,239 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-30 11:22:37,939 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-30 11:56:24,505 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-30 11:56:42,298 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-30 12:22:25,058 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-30 13:00:33,944 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-30 13:12:53,430 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-30 13:22:26,978 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-30 13:40:58,116 - monApp.views - ERROR - Une erreur s'est produite lors de la sauvegarde de la facture : create_invoice_item() missing 1 required positional argument: 'item_data'
+2024-05-30 13:41:52,871 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-30 13:46:01,556 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-31 09:55:47,647 - monApp.views - INFO - Facture enregistrée avec succès
+2024-05-31 09:55:59,453 - monApp.views - INFO - Facture enregistrée avec succès

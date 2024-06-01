@@ -28,7 +28,6 @@ const GridBill = () => {
   const delayedTotal = calculateTotal(invoices, 'En retard');
   const accountingTotal = calculateTotal(invoices, 'En comptabilitée');
 
-
   const columns = [
     { field: 'invoice_number', headerName: 'REFERENCE', width: 160 },
     {
@@ -43,27 +42,23 @@ const GridBill = () => {
       headerName: 'REFERENCE CLIENT',
       type: 'string',
       width: 220,
-      editable: true,
     },
     {
       field: 'invoice_date',
       headerName: 'DATE DE CREATION',
       width: 220,
-      editable: true,
       type: 'Date',
     },
     {
       field: 'due_date',
       headerName: 'ECHEANCE',
       width: 150,
-      editable: true,
       type: 'Date',
     },
     {
       field: 'total_amount_exc_vat',
       headerName: 'MONTANT HTVA',
       width: 180,
-      editable: true,
       type: 'number',
       valueFormatter: (params) => `€ ${params.value}`,
     },
@@ -72,7 +67,6 @@ const GridBill = () => {
       headerName: 'STATUT',
       headerAlign: 'center',
       width: 140,
-      editable: true,
       type: 'string',
       sortable: false,
       renderCell: (params) => (
@@ -102,6 +96,11 @@ const GridBill = () => {
           pagination
           disableRowSelectionOnClick
           onRowClick={handleRowClick}
+          componentsProps={{
+            row: {
+              className: 'data-grid-row',
+            },
+          }}
         />
       </Box>
       <div className='ExtraInformation'>

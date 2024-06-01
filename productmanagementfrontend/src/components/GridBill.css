@@ -1,55 +1,57 @@
- .data-grid-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-
- 
-  .MuiDataGrid-filterForm {
-    background-color: #9EEDE7;
-    border: 1px solid #CCCCCC;
-    width: 50rem;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-
-  .MuiFormControl-root.MuiDataGrid-filterFormColumnInput.css-q68e8e-MuiFormControl-root-MuiDataGrid-filterFormColumnInput {
-    width: 12rem;
-  }
-  
-  .MuiButtonBase-root-MuiIconButton-root-MuiIconButton-sizeSmall-css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root{
-    padding-left: 0%;
-  }
-
-  .MuiDataGrid-columnHeaderTitleContainer{
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .MuiDataGrid-cell {
-    display: flex;
-    align-items: center;
-  }
-  
-  .MuiDataGrid-menuIconButton {
-    margin-left:0%;
-  }
-  
-
-  .ExtraInformation{
-    width: 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+.data-grid-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-.NewBillButton{
+.MuiDataGrid-row:hover {
+  cursor: pointer;
+}
+
+/* Rest of your existing CSS */
+.MuiDataGrid-filterForm {
+  background-color: #9EEDE7;
+  border: 1px solid #CCCCCC;
+  width: 50rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.MuiFormControl-root.MuiDataGrid-filterFormColumnInput.css-q68e8e-MuiFormControl-root-MuiDataGrid-filterFormColumnInput {
+  width: 12rem;
+}
+
+.MuiButtonBase-root-MuiIconButton-root-MuiIconButton-sizeSmall-css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root {
+  padding-left: 0%;
+}
+
+.MuiDataGrid-columnHeaderTitleContainer {
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.MuiDataGrid-cell {
+  display: flex;
+  align-items: center;
+}
+
+.MuiDataGrid-menuIconButton {
+  margin-left: 0%;
+}
+
+.ExtraInformation {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.NewBillButton {
   background-color: #21D59B;
   font-weight: bold;
   font-size: 0.9rem;
@@ -64,17 +66,16 @@
 }
 
 .Disposition2 {
-  background-color: #FFB100; 
+  background-color: #FFB100;
 }
 
 .Disposition3 {
-  background-color: #FF0000; 
+  background-color: #FF0000;
 }
 
 .Disposition4 {
-  background-color: #173058; 
+  background-color: #173058;
 }
-
 
 .Disposition1,
 .Disposition2,
@@ -87,7 +88,7 @@
   flex-direction: column;
   justify-content: space-between;
   color: white;
-  padding: 0.3rem 0.2rem; 
+  padding: 0.3rem 0.2rem;
   font-weight: 550;
 }
 
@@ -99,10 +100,10 @@
 .Disposition2 strong,
 .Disposition3 strong,
 .Disposition4 strong {
-  text-align: left; 
+  text-align: left;
   padding-left: 1rem;
 }
 
-.Price{
-    align-self: flex-end;
+.Price {
+  align-self: flex-end;
 }
